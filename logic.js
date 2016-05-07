@@ -12,8 +12,10 @@ var authKey = "9d304a55c1934c5bbaa46a117466c120"
 // URL Base
 var queryURLBase = "http://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + authKey; 
 
+
 // create variable to track number of articles
 
+var articleNum = 0;
 
 // FUNCTIONS
 // =========================================
@@ -29,6 +31,7 @@ function runQuery(numArticles, queryURL){
 
 			// Clear the wells from the previous run
 
+			
 
 			for (var i=0; i<numArticles; i++){
 
