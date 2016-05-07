@@ -63,7 +63,7 @@ $('#searchBtn').on('click', function() {
 
 
 	// Get Search Term
-	var search = $('#search').val();
+	var search = $('#searchTerm').val();
 	console.log(search);
 	// create a variable that contains the base url and appends the query term.
 
