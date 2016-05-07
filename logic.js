@@ -25,8 +25,7 @@ function runQuery(numArticles, queryURL){
 		.done(function(NYTData) {
 
 			// Logging to Console response and number of articles.
-
-
+			console.log(NYTData);
 
 			// Clear the wells from the previous run
 
