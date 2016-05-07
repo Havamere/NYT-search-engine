@@ -3,7 +3,7 @@
 // You can grab your own at http://developer.nytimes.com/signup Then select Article Search API
 // API DOCs http://web.archive.org/web/20160413164846/http://developer.nytimes.com/docs/read/article_search_api_v2
 
-var authKey = ""
+var authKey = "9d304a55c1934c5bbaa46a117466c120"
 
 // Search Parameters Set variables to store your queryTerm, Number of results, Start year and End Year
 
@@ -25,8 +25,7 @@ function runQuery(numArticles, queryURL){
 		.done(function(NYTData) {
 
 			// Logging to Console response and number of articles.
-
-
+			console.log(NYTData);
 
 			// Clear the wells from the previous run
 
