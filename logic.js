@@ -29,10 +29,6 @@ function runQuery(numArticles, queryURL){
 			// Logging to Console response and number of articles.
 			console.log(NYTData);
 
-			// Clear the wells from the previous run
-
-			
-
 			for (var i=0; i<numArticles; i++){
 
 				// Start Dumping to HTML Here
@@ -63,10 +59,12 @@ function runQuery(numArticles, queryURL){
 // =========================================
 
 $('#searchBtn').on('click', function() {
+	// Clear the wells from the previous run
+
 
 	// Get Search Term
-	
-
+	var search = $('#search').val();
+	console.log(search);
 	// create a variable that contains the base url and appends the query term.
 
 
